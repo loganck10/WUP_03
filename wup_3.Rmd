@@ -1,6 +1,6 @@
 ---
 title: "Alcohol vs Seat choice"
-author: "Your Name"
+author: "Logan Kimbrough"
 date: "Fall 2020"
 output: html_document
 ---
@@ -28,6 +28,7 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 basicCN + geom_boxplot()
 ```
   
+ Showing from the results of the boxplot. The back seats have more than the front and middle.
   
 ### get fancy  
 
